@@ -20,6 +20,10 @@ Each transcript contains **only the generated stories**. No Claude conversation 
 - **[V3 — version used for the initial eight-story test](instructions/haiku-v3.xml)**
 - **[V3.1 — latest version](instructions/haiku-v3.1.xml)**, with two small refinements to dialogue rhythm and use of em-dashes. V3.1 has **not** been separately benchmarked.
 
+## Sonnet 4.5 writing-style Skill
+
+- **[Generalized writing Skill (SKILL.md)](skills/sonnet-4-5-writing-style/SKILL.md)** — applies the target style across fiction, essays, articles and practical writing. This is a later, experimental adaptation and was **not used to produce the benchmark transcripts above**.
+
 ## What I was trying to change
 
 Sonnet 4.5 often uses brisker sentence rhythms, quick and uneven dialogue, more purposeful scene movement and endings that stop on a meaningful beat. Haiku's unmodified writing can be more lyrical, earnest and expansive. The instructions target those habits while explicitly preserving Haiku's creativity.
