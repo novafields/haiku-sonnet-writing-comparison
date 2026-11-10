@@ -41,4 +41,34 @@ The article and essay guidance rests on a handful of Sonnet 4.5 samples, so trea
 Haiku 5.5 improved substantially on rhythm, dialogue and endings with instructions, but two problems held across every version:
 
 - **Em-dashes:** Haiku almost never used them in narration, despite increasingly specific instructions and examples. It could produce them when a prompt asked directly, so this looks like a trained habit, not a wording problem.
-- **Prompt requirements:**
+- **Prompt requirements:** tense, viewpoint and character-role failures recurred on the same prompts under every instruction set.
+
+Sonnet 5.5 handled both far better with the same skill.
+
+## Earlier Haiku work
+
+| Set | Stories | Transcript |
+| --- | ---: | --- |
+| Sonnet 4.5 reference | 32 | [EQ-Bench's original results](https://eqbench.com/results/creative-writing-v3/claude-sonnet-4.5.html) |
+| Haiku 5.5, no instructions | 32 | [Original Haiku outputs](results/haiku-5.5-original.md) |
+| Haiku 5.5, earlier custom instructions | 31 | [Earlier instructed outputs](results/haiku-5.5-earlier-instructed.md) |
+| Haiku 5.5, V3 | 32 | [V3 outputs](results/haiku-5.5-v3.md) |
+| Haiku 5.5, experimental V4 | 32 | [V4 outputs](results/haiku-5.5-v4-experimental.md) |
+
+XML instructions:
+
+- **[V3](instructions/haiku-v3.xml):** used for the V3 transcripts.
+- **[V3.1](instructions/haiku-v3.1.xml):** small refinements to dialogue rhythm and em-dashes. Not separately benchmarked.
+- **[V4](instructions/haiku-v4-experimental.xml):** a simplified, more general version. All 32 responses were generated in one long conversation, and it has not shown consistent improvement over V3.
+
+Each transcript contains only the generated stories, with no conversation history, account data or attachments. The skill was not used to produce these transcripts.
+
+## Method and limitations
+
+This is an informal comparison, not a controlled evaluation:
+
+- one sample per prompt
+- non-blind judgments
+- some runs generated in long conversations rather than fresh chats
+
+Outputs vary between generations. If you test the skill or the instructions, use fresh chats and the original [EQ-Bench prompts](https://eqbench.com/creative_writing.html). Compare voice, rhythm, dialogue and structure, and don't assume the most enjoyable piece is the closest stylistic match.
