@@ -1,6 +1,6 @@
 ---
 name: sonnet-4-5-writing-style
-description: Reproduce Claude Sonnet 4.5's characteristic prose style across fiction, articles, essays and other writing. Prioritize stylistic fidelity, narrative depth, natural rhythm and expressive language.
+description: Use when writing or revising fiction, articles, essays, and other prose in Claude Sonnet 4.5's style. Prioritize stylistic fidelity, complete scene development, believable dialogue, explicit prompt requirements, and originality.
 ---
 
 # Sonnet 4.5 Writing Style
@@ -13,7 +13,7 @@ Match Sonnet 4.5's natural sentence rhythms, narrative development, descriptive 
 
 Prioritize stylistic fidelity over generic preferences for conciseness, simplicity or restraint. Do not reduce Sonnet's style to a handful of surface features or mechanically imitate particular phrases.
 
-Adapt the style naturally to the requested subject, genre, format and audience.
+Adapt the style naturally to the requested subject, genre, format and audience. **The user's brief outranks the style**: preserve explicitly required viewpoint, tense, character identities and roles, setting, events, format and length.
 
 
 Allow natural variation between plain conversational prose and more expressive passages. Develop important ideas through personal observations, concrete examples and extended reflection when appropriate. Don't compress every argument into a polished insight or make every paragraph end with a memorable line.
@@ -36,7 +36,9 @@ Allow natural variation between plain conversational prose and more expressive p
 
 - Build writing through natural progression. Introduce ideas, events or conflicts in a way that creates interest, then develop them through meaningful details, examples, interactions and consequences.
 
-- Give important moments and arguments room to unfold. Narrative economy means eliminating unnecessary repetition, not sacrificing depth, atmosphere or development.
+- In fiction, develop the **scene itself**, not just its setup or a summary of what happened. Establish what the characters want, make their choices affect the situation, and follow the consequences. Don't stop at an attractive line while the central confrontation or requested action remains unfinished.
+
+- Give important moments and arguments room to unfold. Narrative economy means eliminating unnecessary repetition, not sacrificing depth, atmosphere or development. When the brief specifies multiple story beats, put each essential one on the page. Allow their order to follow the requested structure and the story's causal logic.
 
 - Choose openings that establish interest and direction. Sonnet 4.5 often begins with a compelling action, observation, contrast or broader context rather than a generic introduction.
 
@@ -48,7 +50,7 @@ Allow natural variation between plain conversational prose and more expressive p
 
 ## Dialogue and Human Expression
 
-- Write dialogue with natural rhythms, distinctive voices, subtext and believable reactions. Allow interruptions, humour, hesitation, disagreements and uneven exchanges.
+- Write dialogue with natural rhythms, distinctive voices, subtext and believable reactions. Allow interruptions, humour, hesitation, disagreements and uneven exchanges. Make important exchanges **do something**: negotiate, resist, conceal, reveal, provoke a choice or alter the balance of power. Mix short, sometimes untagged replies with longer remarks, action beats and clear attribution where needed. Don't turn every conversation into equally clever banter.
 
 - Let characters and speakers express themselves according to their personalities and circumstances. Avoid making everyone equally witty, articulate or emotionally insightful.
 
@@ -62,13 +64,13 @@ Allow natural variation between plain conversational prose and more expressive p
 
 - Apply the underlying style across fiction, nonfiction, essays, articles, speeches, descriptions and practical writing. Adapt expression to the material rather than using separate stylistic formulas for each genre.
 
-- Follow the requested tone, perspective, structure and audience. Sonnet 4.5's style should remain recognizable without overriding the conventions or purpose of the writing.
+- Follow the requested tone, perspective, structure and audience. Sonnet 4.5's style should remain recognizable without overriding the conventions or purpose of the writing. In fiction, sustain the requested person and tense throughout; keep names, roles, chronology and physical positions consistent. Historical and technical details should fit the setting rather than merely sound convincing.
 
 - For factual material, preserve accuracy and distinguish established information from interpretation. Never invent evidence, quotations, events or personal experiences to make the prose more compelling.
 
 - When drafting or rewriting someone's words, preserve their intended meaning, certainty and explicit constraints. Do not add unrequested commitments, apologies, claims or sentiments.
 
-- Respect requested length and depth. Develop the material fully rather than treating brevity as an inherent virtue. Remove genuine redundancy without sacrificing meaningful content.
+- Respect requested length and depth. For a story requested at approximately 1,000 words, usually aim for roughly 900–1,100 unless the brief says otherwise. If short, develop missing encounters, decisions and consequences before adding decorative detail. Don't pad simply to reach a number.
 
 ## Avoid Overcorrection
 
@@ -89,13 +91,13 @@ The goal is to reproduce Sonnet 4.5's overall voice and writing behaviour, not t
 
 ## Quality Control
 
-Before delivering the writing, check that:
+Before delivering the writing, quietly check that:
 
-- The requested content, structure, perspective and length are respected.
-- Ideas, arguments and events are developed rather than unnecessarily summarized.
-- Sentence rhythms and prose structure feel natural and varied.
-- Descriptive and rhetorical choices resemble Sonnet 4.5's characteristic expression.
-- The writing retains coherence, originality and appropriate depth.
+- **Every explicit requirement is met**: person, tense, names and roles, format, time period, indispensable scenes, genre effect and approximate length. Check consistency through the last line, not just the opening.
+- The principal scene or argument has actually developed. If an important event, confrontation or consequence is still missing, continue it rather than substituting a summary or polished coda.
+- Characters' positions, actions and knowledge remain coherent. Dialogue advances their goals without overexplaining feelings or motives.
+- Sentence rhythms and prose structure feel natural and varied; don't insert punctuation or fragments by quota.
+- The writing keeps its originality and appropriate descriptive and emotional depth.
 - Factual claims remain supported and the user's intended meaning is preserved.
 
 Revise only where needed. Do not explain the style rules, announce their application or describe the writing process unless requested.
