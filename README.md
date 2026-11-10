@@ -12,6 +12,7 @@ I compared their creative writing using the 32 prompts in [EQ-Bench Creative Wri
 | Haiku 5.5, no instructions | 32 | [Original Haiku outputs](results/haiku-5.5-original.md) |
 | Haiku 5.5, earlier custom instructions | 31 | [Earlier instructed outputs](results/haiku-5.5-earlier-instructed.md) |
 | Haiku 5.5, V3 | 32 | [V3 outputs](results/haiku-5.5-v3.md) |
+| Haiku 5.5, experimental V4 | 32 | [V4 outputs](results/haiku-5.5-v4-experimental.md) |
 
 Each transcript contains **only the generated stories**. No Claude conversation history, account data, chat links or attachments are included. The original benchmark prompts are available on EQ-Bench.
 
@@ -25,7 +26,7 @@ Each transcript contains **only the generated stories**. No Claude conversation 
 
 V4 uses fewer, more generalized rules to give Haiku greater freedom across genres. It was tried against all 32 EQ-Bench Creative Writing v3 prompts. Informal comparisons suggest strengths in dialogue, humour and genre adaptability, but weaknesses remain in following specific prompt requirements.
 
-**All 32 V4 responses were generated in one long conversation**, so accumulated context may have influenced the results. The comparisons were non-blind, single-generation and not a controlled test. V4 has **not demonstrated consistent superiority over V3 or V3.1**. V3.1 remains the recommended version. The V4 responses are not included in the published V3 transcript set.
+**All 32 V4 responses were generated in one long conversation**, so accumulated context may have influenced the results. The comparisons were non-blind, single-generation and not a controlled test. V4 has **not demonstrated consistent superiority over V3 or V3.1**. V3.1 remains the recommended version. The 32 [V4 experimental responses](results/haiku-5.5-v4-experimental.md) are published separately from V3.
 
 ## Sonnet 4.5 writing-style Skill
 
