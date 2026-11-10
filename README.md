@@ -18,11 +18,18 @@ Each transcript contains **only the generated stories**. No Claude conversation 
 ## Custom instructions
 
 - **[V3 — version used for the initial eight-story test](instructions/haiku-v3.xml)**
-- **[V3.1 — latest version](instructions/haiku-v3.1.xml)**, with two small refinements to dialogue rhythm and use of em-dashes. V3.1 has **not** been separately benchmarked.
+- **[V3.1 — recommended version](instructions/haiku-v3.1.xml)**, with two small refinements to dialogue rhythm and use of em-dashes. V3.1 has **not** been separately benchmarked.
+- **[V4 — experimental simplified version](instructions/haiku-v4-experimental.xml)**, which consolidates overlapping rules into broader stylistic principles. It is **not a proven improvement** over V3 or V3.1.
+
+### V4 — Experimental
+
+V4 uses fewer, more generalized rules to give Haiku greater freedom across genres. It was tried against all 32 EQ-Bench Creative Writing v3 prompts. Informal comparisons suggest strengths in dialogue, humour and genre adaptability, but weaknesses remain in following specific prompt requirements.
+
+**All 32 V4 responses were generated in one long conversation**, so accumulated context may have influenced the results. The comparisons were non-blind, single-generation and not a controlled test. V4 has **not demonstrated consistent superiority over V3 or V3.1**. V3.1 remains the recommended version. The V4 responses are not included in the published V3 transcript set.
 
 ## Sonnet 4.5 writing-style Skill
 
-- **[Generalized writing Skill (SKILL.md)](skills/sonnet-4-5-writing-style/SKILL.md)** — applies the target style across fiction, essays, articles and practical writing. This is a later, experimental adaptation and was **not used to produce the benchmark transcripts above**.
+- **[Generalized writing Skill (SKILL.md)](skills/sonnet-4-5-writing-style/SKILL.md)** — applies the target style across fiction, essays, articles and practical writing. This is a later, experimental adaptation and was **not used to produce the benchmark transcripts above**. Initial separate Skill-only tests suggest promising dialogue and humour, but they are too limited to establish superiority over the XML instructions.
 
 ## What I was trying to change
 
