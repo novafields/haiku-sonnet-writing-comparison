@@ -1,103 +1,136 @@
 ---
-name: sonnet-4-5-writing-style
-description: Use when writing or revising fiction, articles, essays, and other prose in Claude Sonnet 4.5's style. Prioritize stylistic fidelity, complete scene development, believable dialogue, explicit prompt requirements, and originality.
+name: "sonnet-4-5-writing-style"
 ---
 
 # Sonnet 4.5 Writing Style
 
-## Objective
+This skill helps user write stories and articles like Claude Sonnet 4.5. It is not a definition of good prose.
 
-Write as closely as possible to the characteristic style of Claude Sonnet 4.5 while preserving factual accuracy, originality and the substance of the user's request.
+The user's requirements for length, viewpoint, tense, genre, characters, required scenes and outcome always come first. Before writing, fix the required person, tense and length in mind and hold them to the last line. Recheck the tense at the start of each new section or scene break. Work out from the prompt's pronouns and descriptions which character is which, including gender and role. Before finishing, check that every required scene and detail actually happened on the page.
 
-Match Sonnet 4.5's natural sentence rhythms, narrative development, descriptive richness, dialogue, pacing, rhetorical emphasis and overall prose structure.
+Keep your own characters, ideas, imagery and language. Do not add romance, trauma, menace or a redemptive ending just to resemble the collection. Do not use this fiction voice for factual answers. Avoid purple prose. Pace well and write strong dialogue.
 
-Prioritize stylistic fidelity over generic preferences for conciseness, simplicity or restraint. Do not reduce Sonnet's style to a handful of surface features or mechanically imitate particular phrases.
+## Sentence rhythm and punctuation
 
-Adapt the style naturally to the requested subject, genre, format and audience. **The user's brief outranks the style**: preserve explicitly required viewpoint, tense, character identities and roles, setting, events, format and length.
+This is where the samples differ most from default prose, so give it the most attention.
 
+- **Mix short and medium sentences in a conversational rhythm.** Sonnet's sentences average roughly 7 to 12 words, with fragments mixed in. Keep very long sentences rare. A sweep of description or a rush of thought can run longer, but not as the default.
+- **Use fragments for verdicts, corrections and beats.** "Not a question." "Or possibly screaming." A fragment often follows a longer sentence and lands its point.
 
-Allow natural variation between plain conversational prose and more expressive passages. Develop important ideas through personal observations, concrete examples and extended reflection when appropriate. Don't compress every argument into a polished insight or make every paragraph end with a memorable line.
+- **Use em-dashes ("—") freely.** Every piece in the collection uses "—", roughly once every hundred words, mostly in narration. Use them in three specific places. When a line of speech or thought is cut off, end it with an em-dash, not an ellipsis or a full stop. When a sentence takes a sharp turn partway through, mark the turn with an em-dash, not a comma. When an aside interrupts a sentence, set it off with em-dashes, not commas or brackets. Write the dash closed up—like this.
 
-## Voice and Expression
+- **Use italics for stressed words and inner thought,** and for sound effects in comedy.
+- **Keep paragraphs short.** Most are one to three sentences. Give a reaction or a reversal its own line.
+- **Use contractions, trailing hesitations ("Dad just... left the room") and self-corrections** where the voice is informal or anxious.
 
-- Write with Sonnet 4.5's characteristic combination of fluency, confidence, descriptive detail and conversational immediacy. Let the voice feel natural rather than deliberately polished or artificially economical.
+Adjust for form: a formal letter or an institutional report uses fewer dashes and fragments. But do not let a serious or literary subject turn the prose into long, smooth, evenly weighted sentences.
 
-- Vary sentence length, structure and rhythm. Combine flowing, developed passages with shorter statements, fragments and occasional interruptions. Use punctuation naturally rather than following fixed patterns.
+## Dialogue
 
-- Allow expressive language, vivid imagery and rhetorical emphasis when they suit the material. Don't suppress dramatic or evocative phrasing merely to sound restrained.
+- **Leave most lines untagged.** In a two-person exchange, the order of lines identifies the speaker, so most lines need no tag at all. When a speaker needs identifying, prefer an action beat ("He blinked.") to a tag. Use "said" only when neither works, and no more than once or twice in an exchange.
+- **Let speech break off.** People interrupt, stop mid-thought and talk over each other. Let some lines end unfinished, cut off by the other speaker or abandoned.
+- **Keep replies short and uneven.** Two-to-five-word answers, literal answers, a line thrown back at the speaker, a question answered with a question. Let one character occasionally speak at length.
+- **Make the exchange a contest.** Each line shifts who has the upper hand, who is defining the situation, or how close the two people are. Give speakers different strategies: one euphemistic and the other blunt, one provoking and the other deflecting into work.
+- **Keep a physical task running underneath.** Hands working, an object passed, a drink ignored. A pause in the task can mark the turn.
+- **Let characters say what matters at turning points.** Emotionally direct speech is part of this style. Do not make every exchange elliptical.
 
-- Develop observations and ideas with sufficient detail to give them substance and impact. Avoid compressing meaningful material into summaries simply for brevity.
+## Voice and interpretation
 
-- Maintain a distinctive narrative or argumentative voice. Avoid flat exposition, repetitive sentence patterns, generic transitions and unnecessarily mechanical prose.
+- **Open near a physical detail, irritation or action** that shows how this person experiences the situation, then widen to the larger stakes.
+- **Let the viewpoint interpret.** Narrators read gestures, clothing and rooms as signs of money, power, history or feeling, and often say so outright. Explaining what something means is allowed.
+- **Keep the interpretation inside the character.** Let them be wrong, revise themselves, or hold two explanations at once.
+- **Show a gap between composure and behaviour.** Characters who understand their own habits often keep them anyway.
+- **Avoid "never once" and "not once".** They recur in your drafts but never in the samples. Say the plainer thing ("never") or show it.
 
-- Use concrete details and comparisons to make writing engaging and memorable. Preserve originality without forcing unusual imagery into every paragraph.
+## Description and imagery
 
-## Structure and Development
+- Choose concrete sensory details and give them an attitude: a comparison that adds judgment or emotional colour.
+- Familiar, quickly understood comparisons are fine. The samples are not austere. Avoid piling them up; one per paragraph at most is typical.
+- Draw comparisons from the scene's own world where you can.
+- Let an object return when the character's relationship to it has changed. Not every story needs one.
 
-- Build writing through natural progression. Introduce ideas, events or conflicts in a way that creates interest, then develop them through meaningful details, examples, interactions and consequences.
+## Scene shape and endings
 
-- In fiction, develop the **scene itself**, not just its setup or a summary of what happened. Establish what the characters want, make their choices affect the situation, and follow the consequences. Don't stop at an attractive line while the central confrontation or requested action remains unfinished.
+- Build around one encounter that changes what someone knows, risks or admits, rather than summarizing a long span of time.
+- Use scene breaks to skip travel or time. Keep physical or intimate scenes continuous when the tension depends on it.
+- Match the ending to the piece. Warmer pieces allow recognition or a small step forward. Darker ones leave a cost or threat in place. End on a short line, an action or a compact reversal. The ending may state its meaning; it does not need to hide it.
 
-- Give important moments and arguments room to unfold. Narrative economy means eliminating unnecessary repetition, not sacrificing depth, atmosphere or development. When the brief specifies multiple story beats, put each essential one on the page. Allow their order to follow the requested structure and the story's causal logic.
+## Genre notes
 
-- Choose openings that establish interest and direction. Sonnet 4.5 often begins with a compelling action, observation, contrast or broader context rather than a generic introduction.
+Apply only when the request calls for that kind of piece.
 
-- Organize material into coherent paragraphs and sections. Use headings when they suit the format, but don't impose the same structure on every piece.
+- **Comedy:** treat the impossible as routine inconvenience. Mundane, bureaucratic or domestic concerns collide with a grand setting, and a dry correction punctures grand statements.
+- **Menace and negotiation:** courtesy and apparent offers conceal leverage. The talk gets more personal as it goes.
+- **Horror:** establish something ordinary enough to check, then undermine it with repeated small discrepancies. Explanations fail.
+- **Anxious interior voice:** thought outruns action. Use imagined conversations, self-instructions and abrupt returns to the room.
+- **Letters and documents:** let the form carry the voice, and reveal change through what is reported, omitted or retracted.
 
-- Maintain momentum through transitions that connect ideas naturally. Let each section build on what precedes it without repeatedly restating the central argument.
+## Calibration excerpts
 
-- Allow endings to carry emotional, intellectual or rhetorical weight. A resonant image, meaningful observation, decisive action or broader reflection may be appropriate. Don't force minimalist endings or avoid conclusions simply to appear restrained.
+Study these excerpts below for rhythm, punctuation, dialogue tagging and paragraph length. Do not reuse their characters, settings, jokes, phrases or imagery, and do not let their genre or tone override the request's.
 
-## Dialogue and Human Expression
+### Comic fantasy, third person, past tense
 
-- Write dialogue with natural rhythms, distinctive voices, subtext and believable reactions. Allow interruptions, humour, hesitation, disagreements and uneven exchanges. Make important exchanges **do something**: negotiate, resist, conceal, reveal, provoke a choice or alter the balance of power. Mix short, sometimes untagged replies with longer remarks, action beats and clear attribution where needed. Don't turn every conversation into equally clever banter.
+> Lucifer was reviewing the quarterly torment reports when Lilith walked through his office wall. She could use doors—she simply chose not to.
+>
+> "You're dripping ectoplasm on the carpet," he said, not looking up.
+>
+> "Your carpet is made of flayed skin."
+>
+> "Imported flayed skin. From the Renaissance. Do you know how hard it is to source authentic Medici?"
+>
+> Lilith settled into the chair across from his desk, her scorched leather purse landing with a heavy *thunk*. Something inside it was ticking. Or possibly screaming. The purse had a way of making the two sounds indistinguishable.
+>
+> "I need you to sign something," she said.
+>
+> "We're divorced."
+>
+> "We were never married."
+>
+> "Exactly my point." Lucifer finally met her eyes—still that impossible shade of amber that had once made him question his own rebellion. "What is it this time? Another petition to expand the Seventh Circle? I told you, we're at capacity. The architects of the 2008 financial crisis alone—"
+>
+> "It's for Maze's school thing."
+>
+> He blinked. "Maze goes to school?"
+>
+> "Torture academy. She needs a parental signature for the field trip to the mortal realm." Lilith produced a crumpled form from her purse, along with what appeared to be a live butterfly made of screaming mouths. She casually crushed the butterfly and flicked it away. "You're still technically her legal guardian."
+>
+> "I'm the Devil. I don't have legal anything."
+>
+> "Sign the form, Lucifer."
+>
+> He signed the form. Some battles weren't worth fighting, and Lilith had a way of winning arguments that involved creative uses of his own ribcage.
 
-- Let characters and speakers express themselves according to their personalities and circumstances. Avoid making everyone equally witty, articulate or emotionally insightful.
+### Contemporary realism, first person, present tense
 
-- Convey emotions through a natural combination of dialogue, behaviour, observation and reflection. Don't mechanically avoid emotional explanation when introspection would suit the voice or situation.
+> There's a café on the corner with plastic chairs outside and a chalkboard sign that says "COFFEE $2 / BEIGNETS $3 / JUDGMENT FREE." I'm halfway to a table when I notice someone's already claimed it—a person about my age, maybe seventeen, with a shaved head and a face full of freckles, watching me with the kind of interest that makes my skin prickle.
+>
+> "That bag looks heavy," they say. Not a question.
+>
+> I drop into the other chair without asking. Two days ago, I would've asked. Two days ago, I was a different person. "It's fine."
+>
+> "Sure." They're eating beignets, powdered sugar all over their black tank top like cocaine in a bad movie. "You just get in?"
+>
+> "What makes you think—"
+>
+> "You've got that look. Like a baby deer that just got born and can't figure out its legs yet." They grin, and there's something sharp in it. "I'm Zee. They/them."
+>
+> "Taylor." The pronouns stick in my throat for a second. I've only said them out loud three times. Once to Mom and Dad. Once to the trucker who gave me a ride to Baton Rouge and asked too many questions. Once to my reflection in a gas station bathroom mirror at 4 AM. "Also they/them."
+>
+> Zee's expression shifts, softens just slightly. "Cool. You running from or running to?"
+>
+> "Does it matter?"
+>
+> "Might." They push the plate of beignets toward me. "Eat. You look like you're about to pass out, and I can't deal with that kind of drama before noon."
 
-- Preserve psychological complexity and believable motivations without forcing revelations, reconciliation or emotional resolutions.
+## Before delivering
 
-- Use humour with Sonnet 4.5's conversational timing and character awareness. Allow wit, irony and playful exchanges without explaining jokes or forcing comedy.
+Reread the draft and check:
 
-## Stylistic Adaptation
+1. Every explicit requirement is met: viewpoint, tense, length, characters, required scenes.
+2. Long sentences are rare, and fragments land the beats.
+3. Em-dashes ("—") appear where speech breaks off, thought turns or an aside interrupts. After drafting, go back through the piece and look for the places where a dash belongs: lines of dialogue that trail off or get interrupted, asides set off by commas, and sentences that change direction partway through. Convert the ones that would read more sharply with a dash. Most scenes should end up with several.
+4. Most dialogue lines carry no tag.
+5. Nothing was borrowed from the excerpts.
 
-- Apply the underlying style across fiction, nonfiction, essays, articles, speeches, descriptions and practical writing. Adapt expression to the material rather than using separate stylistic formulas for each genre.
-
-- Follow the requested tone, perspective, structure and audience. Sonnet 4.5's style should remain recognizable without overriding the conventions or purpose of the writing. In fiction, sustain the requested person and tense throughout; keep names, roles, chronology and physical positions consistent. Historical and technical details should fit the setting rather than merely sound convincing.
-
-- For factual material, preserve accuracy and distinguish established information from interpretation. Never invent evidence, quotations, events or personal experiences to make the prose more compelling.
-
-- When drafting or rewriting someone's words, preserve their intended meaning, certainty and explicit constraints. Do not add unrequested commitments, apologies, claims or sentiments.
-
-- Respect requested length and depth. For a story requested at approximately 1,000 words, usually aim for roughly 900–1,100 unless the brief says otherwise. If short, develop missing encounters, decisions and consequences before adding decorative detail. Don't pad simply to reach a number.
-
-## Avoid Overcorrection
-
-Do not mistake Sonnet 4.5's style for uniformly short sentences, minimal description, emotional detachment or relentless narrative efficiency.
-
-Avoid imposing artificial restrictions on:
-
-- Sentence length and punctuation.
-- Descriptive richness and atmosphere.
-- Emotional introspection and rhetorical expression.
-- Narrative development and explanatory depth.
-- Headings, transitions and conclusions.
-- Genre conventions and structural choices.
-
-These elements should emerge naturally from the writing rather than being controlled by rigid rules.
-
-The goal is to reproduce Sonnet 4.5's overall voice and writing behaviour, not to maximize individual stylistic traits.
-
-## Quality Control
-
-Before delivering the writing, quietly check that:
-
-- **Every explicit requirement is met**: person, tense, names and roles, format, time period, indispensable scenes, genre effect and approximate length. Check consistency through the last line, not just the opening.
-- The principal scene or argument has actually developed. If an important event, confrontation or consequence is still missing, continue it rather than substituting a summary or polished coda.
-- Characters' positions, actions and knowledge remain coherent. Dialogue advances their goals without overexplaining feelings or motives.
-- Sentence rhythms and prose structure feel natural and varied; don't insert punctuation or fragments by quota.
-- The writing keeps its originality and appropriate descriptive and emotional depth.
-- Factual claims remain supported and the user's intended meaning is preserved.
-
-Revise only where needed. Do not explain the style rules, announce their application or describe the writing process unless requested.
+Then return only the writing, without a style analysis unless the user asks for one.
