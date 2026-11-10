@@ -1,49 +1,44 @@
-# Haiku 5.5 → Sonnet 4.5: A writing-style experiment
+# Sonnet 4.5 writing style: an experiment
 
-Can a writing skill help **Claude Haiku 5.5 sound more like Sonnet 4.5** while preserving Haiku's original imagery and warmth?
+Can a writing skill make newer Claude models **write like Claude Sonnet 4.5** in fiction, articles and personal essays?
 
-I compared their creative writing using the 32 prompts in [EQ-Bench Creative Writing v3](https://eqbench.com/creative_writing.html). I then developed a Sonnet 4.5 writing-style skill with **Fable 5.2, Opus 5.5 and GPT-6**, particularly for use with Claude Projects. The aim is **stylistic similarity**, not necessarily a higher creative-writing score.
+This project started as an attempt to make **Claude Haiku 5.5** sound like Sonnet 4.5, using the 32 prompts in [EQ-Bench Creative Writing v3](https://eqbench.com/creative_writing.html). It ended as a writing-style skill now used with **Claude Sonnet 5.5**. The skill was developed with help from Fable 5.2, Opus 5.5 and GPT-6.
 
-The repository also includes earlier XML instructions developed with help from GPT-6 and GLM 5.3, along with the stories generated using them.
+The aim is **stylistic fidelity to Sonnet 4.5**, not a higher creative-writing score.
 
-## Sonnet 4.5 writing-style skill
+## The skill
 
 **[Read the writing skill (SKILL.md)](skills/sonnet-4-5-writing-style/SKILL.md)**
 
-The skill is intended to help write stories and articles in the style of Sonnet 4.5. It can be used as a reference in Claude Projects. It is experimental and **was not used to produce the benchmark transcripts below**. Initial separate skill tests suggest promising dialogue and humour, but they are too limited to establish superiority over the XML instructions.
+The skill covers three forms:
 
-## Read the stories
+- **Fiction:** brisk sentences, untagged and uneven dialogue, one encounter that changes something, endings on a short line or reversal
+- **Articles:** a magazine-feature shape, with a catchy colon headline, a lede before the first heading, evocative section titles, familiar idioms and a kicker ending
+- **Personal essays:** a human first-person narrator, an opening on a specific moment, a tone that follows the topic, the lesson stated outright, and a quotable closing line
 
-| Set | Stories | Transcript |
-| --- | ---: | --- |
-| Sonnet 4.5 reference | 32 | [EQ-Bench's original results](https://eqbench.com/results/creative-writing-v3/claude-sonnet-4.5.html) |
-| Haiku 5.5, no instructions | 32 | [Original Haiku outputs](results/haiku-5.5-original.md) |
-| Haiku 5.5, earlier custom instructions | 31 | [Earlier instructed outputs](results/haiku-5.5-earlier-instructed.md) |
-| Haiku 5.5, V3 | 32 | [V3 outputs](results/haiku-5.5-v3.md) |
-| Haiku 5.5, experimental V4 | 32 | [V4 outputs](results/haiku-5.5-v4-experimental.md) |
+Across all three, it asks for frequent em-dashes, plain wording over clever, feelings and stakes stated directly, and a return to the opening at the end.
 
-Each transcript contains **only the generated stories**. No Claude conversation history, account data, chat links or attachments are included. The original benchmark prompts are available on EQ-Bench.
+It also puts the user's requirements (person, tense, length, required scenes) ahead of every style rule, and allows quotes only from real sources.
 
-## Earlier XML instructions
+### How to use it
 
-- **[V3 — version used for the initial eight-story test](instructions/haiku-v3.xml)**
-- **[V3.1 — previously recommended version](instructions/haiku-v3.1.xml)**, with two small refinements to dialogue rhythm and use of em-dashes. V3.1 has **not** been separately benchmarked.
-- **[V4 — experimental simplified version](instructions/haiku-v4-experimental.xml)**, which consolidates overlapping rules into broader stylistic principles. It is **not a proven improvement** over V3 or V3.1.
+Add it as a skill in Claude, or include it in a Claude Project's instructions. Then ask for fiction, an article or an essay as usual.
 
-### V4 — Experimental
+### What testing showed
 
-V4 uses fewer, more generalized rules to give Haiku greater freedom across genres. It was tried against all 32 EQ-Bench Creative Writing v3 prompts. Informal comparisons suggest strengths in dialogue, humour and genre adaptability, but weaknesses remain in following specific prompt requirements.
+These were informal, non-blind, single-sample tests, comparing Sonnet 5.5 with the skill against Sonnet 4.5 on the same prompts.
 
-**All 32 V4 responses were generated in one long conversation**, so accumulated context may have influenced the results. The comparisons were non-blind, single-generation and not a controlled test. V4 has **not demonstrated consistent superiority over V3 or V3.1**. V3.1 was the recommended XML version at the time. The 32 [V4 experimental responses](results/haiku-5.5-v4-experimental.md) are published separately from V3.
+- **Structure and form:** close. Sonnet 5.5 followed Sonnet 4.5's article and essay shapes and the fiction rhythm reliably.
+- **Prompt requirements:** much improved. Tense, viewpoint and required-scene failures that had persisted through every Haiku version largely disappeared.
+- **Em-dashes:** still below Sonnet 4.5's rate. Sonnet 5.5 uses them correctly but sparingly.
+- **Voice:** Sonnet 5.5 stays slightly more polished and restrained than Sonnet 4.5, which is warmer, jokier and more openly sentimental.
+- **Length:** Sonnet 5.5 lands near the requested word count, while Sonnet 4.5 often overshoots by 40–50%. The skill keeps the length rule rather than copying that habit.
 
-## What I was trying to change
+The article and essay guidance rests on a handful of Sonnet 4.5 samples, so treat it as provisional.
 
-Sonnet 4.5 often uses brisker sentence rhythms, quick and uneven dialogue, more purposeful scene movement and endings that stop on a meaningful beat. Haiku's unmodified writing can be more lyrical, earnest and expansive. The original instructions targeted those habits while preserving Haiku's creativity.
+## Why not Haiku?
 
-**Initial qualitative impression:** The instructed Haiku responses feel closer to Sonnet 4.5 in pacing, dialogue and endings, but the match isn't exact. Comedy, physical continuity and overly balanced banter remain uneven. Haiku's warmer emotional voice and unusual imagery are intentionally preserved.
+Haiku 5.5 improved substantially on rhythm, dialogue and endings with instructions, but two problems held across every version:
 
-## Method and limitations
-
-The questions come from the same benchmark, but this is an **informal, non-blind comparison**, not a controlled evaluation or a claim of objective parity. Outputs vary between generations. The earlier instructed run contains 31 stories because question 26 was not generated. The V3 results were produced in two batches (eight selected questions, then the remaining 24). The final V3.1 XML was refined afterward.
-
-If you're testing the skill or the earlier instructions, use fresh chats, the original [EQ-Bench prompts](https://eqbench.com/creative_writing.html) and identical generation settings when possible. Compare **voice, rhythm, dialogue, imagery and narrative structure**, rather than assuming the most enjoyable story is necessarily the closest stylistic match.
+- **Em-dashes:** Haiku almost never used them in narration, despite increasingly specific instructions and examples. It could produce them when a prompt asked directly, so this looks like a trained habit, not a wording problem.
+- **Prompt requirements:**
