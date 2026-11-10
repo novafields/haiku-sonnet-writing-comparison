@@ -2,7 +2,9 @@
 
 Can a writing skill help **Claude Haiku 5.5 sound more like Sonnet 4.5** while preserving Haiku's original imagery and warmth?
 
-I compared their creative writing using the 32 prompts in [EQ-Bench Creative Writing v3](https://eqbench.com/creative_writing.html), then iterated on XML instructions with help from GPT-6 and GLM 5.3. I'm now focusing on a writing skill, particularly for use with Claude Projects. The aim is **stylistic similarity**, not necessarily a higher creative-writing score.
+I compared their creative writing using the 32 prompts in [EQ-Bench Creative Writing v3](https://eqbench.com/creative_writing.html). I then developed a Sonnet 4.5 writing-style skill with **Fable 5.2, Opus 5.5 and GPT-6**, particularly for use with Claude Projects. The aim is **stylistic similarity**, not necessarily a higher creative-writing score.
+
+The repository also includes earlier XML instructions developed with help from GPT-6 and GLM 5.3, along with the stories generated using them.
 
 ## Sonnet 4.5 writing-style skill
 
