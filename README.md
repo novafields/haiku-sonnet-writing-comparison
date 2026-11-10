@@ -26,6 +26,8 @@ Add it as a skill in Claude, or include it in a Claude Project's instructions. T
 
 ### What testing showed
 
+**[Read the latest Sonnet 5.5 skill results](results/sonnet-skill-latest-results.txt)**, including the skill version used and its comparison with Sonnet 4.5.
+
 These were informal, non-blind, single-sample tests, comparing Sonnet 5.5 with the skill against Sonnet 4.5 on the same prompts.
 
 - **Structure and form:** close. Sonnet 5.5 followed Sonnet 4.5's article and essay shapes and the fiction rhythm reliably.
